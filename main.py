@@ -93,4 +93,7 @@ while game_is_on:
             brick.goto(1000, 100)
             ball.move_speed *= 0.9
 
+        else:
+            scoreboard.win()
+
 screen.exitonclick()
