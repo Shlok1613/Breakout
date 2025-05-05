@@ -1,4 +1,5 @@
 from turtle import Turtle
+
 FONT = ("Courier", 50, "normal")
 brick_points = {
     "red": 7,
@@ -43,7 +44,6 @@ class Scoreboard(Turtle):
     def game_over(self):
         self.goto(0, 0)
         self.write("GAME OVER", align="center", font=FONT)
-
 
     def win(self):
         self.goto(0, 0)
